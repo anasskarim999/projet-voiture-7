@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoitureLux - Accueil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header + Navbar -->
+  <header>
+    <div class="navbar">
+      <h1>VoitureLux</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenu principal -->
+  <div class="container">
+
+    <div class="car-card">
+      <img src="images/télécharger.png" alt="Mercedes" />
+      <div class="car-details">
+        <h3>Mercedes C-Class</h3>
+        <p>Prix: 40,000 €</p>
+        <button onclick="showDetails('Mercedes C-Class')">Détails</button>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="images/2015-bmw-x5-series_100487699_h.jpg" alt="BMW" />
+      <div class="car-details">
+        <h3>BMW X5</h3>
+        <p>Prix: 55,000 €</p>
+        <button onclick="showDetails('BMW X5')">Détails</button>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="images/2017-audi-a4.jpg" alt="Audi A4" />
+      <div class="car-details">
+        <h3>Audi A4</h3>
+        <p>Prix: 42,000 €</p>
+        <button onclick="showDetails('Audi A4')">Détails</button>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="images/télécharger (1).png" alt="Range Rover" />
+      <div class="car-details">
+        <h3>Range Rover</h3>
+        <p>Prix: 75,000 €</p>
+        <button onclick="showDetails('Range Rover')">Détails</button>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="images/R.jpeg" alt="Toyota" />
+      <div class="car-details">
+        <h3>Toyota Corolla</h3>
+        <p>Prix: 22,000 €</p>
+        <button onclick="showDetails('Toyota Corolla')">Détails</button>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="images/R (1).jpeg" alt="Kia" />
+      <div class="car-details">
+        <h3>Kia Sportage</h3>
+        <p>Prix: 27,500 €</p>
+        <button onclick="showDetails('Kia Sportage')">Détails</button>
+      </div>
+    </div>
+        <div class="car-card">
+      <img src="images/Peugeot_3008_2016_620.jpg" alt="Peugeot 3008" />
+      <div class="car-details">
+        <h3>Peugeot 3008</h3>
+        <p>Prix: 27,500 €</p>
+        <button onclick="showDetails('Kia Sportage')">Détails</button>
+      </div>
+    </div>
+        <div class="car-card">
+      <img src="images/im03596-1-volvo-s90.jpg" alt="Kia" />
+      <div class="car-details">
+        <h3>volvo s90</h3>
+        <p>Prix: 27,500 €</p>
+        <button onclick="showDetails('Kia Sportage')">Détails</button>
+      </div>
+    </div>
+        <div class="car-card">
+      <img src="images/2020-vw-golf-8-by-jms.jpg" alt="golf" />
+      <div class="car-details">
+        <h3>Golf 8</h3>
+        <p>Prix: 16,500 €</p>
+        <button onclick="showDetails('Kia Sportage')">Détails</button>
+      </div>
+    </div>
+        <div class="car-card">
+      <img src="images/OIP.jpeg" alt="Mazda" />
+      <div class="car-details">
+        <h3>Mazda</h3>
+        <p>Prix: 5,500 €</p>
+        <button onclik="showDetails('Mazda')">Détails</button>
+      </div>
+    </div>
+
+  </div>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 VoitureLux - Tous droits réservés.</p>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    function showDetails(model) {
+      alert("Vous avez cliqué sur les détails de " + model);
+    }
+  </script>
+
+</body>
+</html>
