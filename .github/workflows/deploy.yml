@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+name: Deploy Static Site to DockerHub
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build and push Docker image
+      - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
           context: .
