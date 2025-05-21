@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: anasskarim999/mon-site:latest
+          tags: karim789/mon-site:latest
